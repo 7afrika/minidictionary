@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+## Table of Contents
+1. [General Info](#general-info)
+2. [File Structure](#file-structure)
+4. [Technologies And Libraries](#technologies-and-libraries)
+5. [Installation](#installation)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### General Info
+***
+This dictionary project is a simple project built using reactjs that contains two sections, one for taking input from the user and the other is for displaying the data. Whenever a user searches for a word, it stores the input in a specific state and trigger an API call based on the inserted keyword parameter. 
 
-In the project directory, you can run:
+### File Structure
+***
+[Project File Structure]
+![Screenshot 2022-08-05 093042](![File structure](https://user-images.githubusercontent.com/110601296/183129582-8efbcf45-95fd-4faf-9b9a-733860b80b07.png))
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies and Libraries 
+***
+A list of technologies and libraries used within the project:
+* [Window10 ]
+* [Visual Studio ](https://code.visualstudio.com) 
+* [npm](https://nodejs.org): Version 8.15.1
+* [Library Axios]
+* Here, I will be using a free opensource API called ‘Free Dictionary API’ to fetch all the required data.
+## Installation
+***
+First Step would be importing the Dictionary folder in visual studio, make sure you have the NodeJs installed and have a react tools extension in the browser you are using.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Second step would be opening the terminal and running the following commands:
+***
+$ npm start:
 
-### `npm test`
+Runs the app in the development mode. 
+Open http://localhost:3000 to view it in the browser.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+$ npm install axios
 
-### `npm run build`
+installs the library used for this project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+$ npm install react-icons --save
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+installs the the icons used for the search and mic button.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+$ npm run
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Builds the app 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
