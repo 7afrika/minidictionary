@@ -11,8 +11,7 @@ This dictionary project is a simple project built using reactjs that contains tw
 
 ### File Structure
 ***
-[Project File Structure]
-![Screenshot 2022-08-05 093042](![File structure](https://user-images.githubusercontent.com/110601296/183129582-8efbcf45-95fd-4faf-9b9a-733860b80b07.png))
+(![File structure](https://user-images.githubusercontent.com/110601296/183129582-8efbcf45-95fd-4faf-9b9a-733860b80b07.png))
 
 
 ## Technologies and Libraries 
