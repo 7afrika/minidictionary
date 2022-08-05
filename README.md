@@ -3,6 +3,7 @@
 2. [File Structure](#file-structure)
 4. [Technologies And Libraries](#technologies-and-libraries)
 5. [Installation](#installation)
+6. [Output](#output)
 
 
 ### General Info
@@ -46,5 +47,8 @@ $ npm run
 
 Builds the app 
 
+### Output
+***
+![Output](https://user-images.githubusercontent.com/110601296/183130776-6d13e4af-36c7-4ac0-848f-1b21ce9a5503.png)
 
 
